@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Premium Join Telegram Buttons</title>
+  <style>
+    /* बेस स्टाइलिंग */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* ====== Navbar Styling ====== */
+    .navbar {
+      background: #000;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .navbar .logo {
+      color: #fff;
+      font-size: 22px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-links li {
+      display: inline;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 8px 12px;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+    }
+
+    /* Navbar for Mobile */
+    .menu-icon {
+      font-size: 28px;
+      color: white;
+      cursor: pointer;
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background: #000;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 10px 0;
+      }
+
+      .nav-links.show {
+        display: flex;
+      }
+
+      .nav-links li {
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      .menu-icon {
+        display: block;
+      }
+    }
+
+    /* ====== Page Content Styling ====== */
+    .content {
+      text-align: center;
+      padding-top: 100px;
+      flex: 1;
+    }
+
+    h1 {
+      color: white;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* प्रीमियम बटन स्टाइल */
+    .telegram-btn {
+      display: inline-block;
+      color: #fff;
+      padding: 15px 35px;
+      font-size: 22px;
+      text-align: center;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+      margin: 10px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .telegram-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    /* अलग-अलग बटन कलर */
+    .btn-1 { background: linear-gradient(45deg, #0088cc, #00c6ff); }
+    .btn-2 { background: linear-gradient(45deg, #ff416c, #ff4b2b); }
+    .btn-3 { background: linear-gradient(45deg, #8e44ad, #c0392b); }
+    .btn-4 { background: linear-gradient(45deg, #27ae60, #2ecc71); }
+    .btn-5 { background: linear-gradient(45deg, #ff9a8b, #ff6a88, #ff99ac); }
+    .btn-6 { background: linear-gradient(45deg, #1e3c72, #2a5298); }
+
+    /* Responsive टेक्स्ट साइजिंग */
+    @media (max-width: 600px) {
+      .telegram-btn {
+        font-size: 18px;
+        padding: 12px 25px;
+      }
+    }
+
+    /* ====== Footer Styling ====== */
+    .footer {
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      text-align: center;
+      padding: 15px 20px;
+      font-size: 14px;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    .footer a:hover {
+      color: #ddd;
+    }
+
+    /* Privacy Policy Text */
+    .privacy-text {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.6);
+      text-align: center;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ====== Navbar ====== -->
+  <nav class="navbar">
+    <a href="#" class="logo">📌 Telegram Join</a>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Videos</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <!-- ====== Page Content ====== -->
+  <div class="content">
+    <h1>Join Our Telegram Channels</h1>
+
+    <a href="https://t.me/+sWpejtW90ogwYTQ1" target="_blank" class="telegram-btn btn-1">🌹भाभी वीडियो ज्वाइन करे 🔗</a>
+    <a href="https://t.me/+sWpejtW90ogwYTQ1" target="_blank" class="telegram-btn btn-2">🥰 देसी वीडियो ज्वाइन करे 🌹</a>
+    <a href="https://t.me/+sWpejtW90ogwYTQ1" target="_blank" class="telegram-btn btn-3">🔥 वायरल वीडियो लिंक 😍</a>
+    <a href="https://t.me/+sWpejtW90ogwYTQ1" target="_blank" class="telegram-btn btn-4">English Video Link 😎</a>
+  </div>
+
+  <!-- ====== Footer ====== -->
+  <footer class="footer">
+    <a href="privacy-policy.html" target="_blank">Privacy Policy</a> |
+    <a href="terms-conditions.html" target="_blank">Terms and Conditions</a>
+    <p class="privacy-text">
+      This website does not store any personal data. We respect your privacy and ensure the best user experience. <br>
+      © 2025 All Rights Reserved. YourCompanyName
+    </p>
+  </footer>
+
+  <!-- ====== JavaScript for Mobile Menu ====== -->
+  <script>
+    function toggleMenu() {
+      let nav = document.querySelector('.nav-links');
+      nav.classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>
